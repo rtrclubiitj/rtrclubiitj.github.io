@@ -15,8 +15,8 @@ cover: assets/images/blog-cover.jpg
 # logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-production_url: https://rtrclubiitj.github.io/
-source_url: https://github.com/rtrclubiitj/rtrclubiit.github.io/
+# production_url: https://rtrclubiitj.github.io/
+# source_url: https://github.com/rtrclubiitj/rtrclubiit.github.io/
 CNAME: #add cname for website to be created
 
 # Social info
@@ -70,13 +70,13 @@ feed:
 # or "master" otherwise
 safe: False
 lsi: False
-username: rtrclubiitj
-repo: rtrclubiitj.github.io
-branch: master
-relative_source: ../rtrclubiitj.github.io/
-destination: ../rtrclubiitj.github.io-pages/
-production_url: https://rtrclubiitj.github.io/
-source_url: https://github.com/rtrclubiitj/rtrclubiit.github.io/
+# username: rtrclubiitj
+# repo: rtrclubiitj.github.io
+# branch: master
+# relative_source: ../rtrclubiitj.github.io/
+# destination: ../rtrclubiitj.github.io-pages/
+# production_url: https://rtrclubiitj.github.io/
+# source_url: https://github.com/rtrclubiitj/rtrclubiit.github.io/
 
 exclude:
   - assets/css
