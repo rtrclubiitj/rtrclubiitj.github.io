@@ -73,8 +73,8 @@ lsi: False
 username: czgdp1807
 repo: rtrclubiitj
 branch: master
-relative_source: ../rtrclubiitj/
-destination: ../rtrclubiitj-pages/
+relative_source: ../rtrclubiitj.github.io/
+destination: ../rtrclubiitj.github.io-pages/
 production_url: https://rtrclubiitj.github.io/
 source_url: https://github.com/rtrclubiitj/rtrclubiit.github.io/
 
