@@ -15,8 +15,8 @@ cover: assets/images/blog-cover.jpg
 # logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-production_url: https://jekyller.github.io/jasper2/
-source_url: https://github.com/jekyller/jasper2/
+production_url: https://rtrclubiitj.github.io/
+source_url: https://github.com/rtrclubiitj/rtrclubiit.github.io/
 CNAME: #add cname for website to be created
 
 # Social info
@@ -70,11 +70,13 @@ feed:
 # or "master" otherwise
 safe: False
 lsi: False
-username: jekyller
+username: czgdp1807
 repo: rtrclubiitj
 branch: master
 relative_source: ../rtrclubiitj/
-destination: ../website/
+destination: ../rtrclubiitj-pages/
+production_url: https://rtrclubiitj.github.io/
+source_url: https://github.com/rtrclubiitj/rtrclubiit.github.io/
 
 exclude:
   - assets/css
