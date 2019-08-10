@@ -74,7 +74,7 @@ username: jekyller
 repo: rtrclubiitj
 branch: master
 relative_source: ../rtrclubiitj/
-destination: ../website-code/
+destination: ../website/
 
 exclude:
   - assets/css
