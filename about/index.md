@@ -5,7 +5,7 @@ title: About
 navigation: true
 logo: 'assets/images/ghost.png'
 class: page-template
-subclass: 'post page'
+subclass: 'post'
 ---
 
 Rotaract Club of IIT Jodhpur was established in the year of 2018 with the motive of serving the society. Our team frequently organizes events like, free health checkups, cloth distribution at the campus of IIT Jodhpur.
