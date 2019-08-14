@@ -1,3 +1,12 @@
+---
+layout: null
+title: Rotaract Club, IIT Jodhpur | Home
+description: Home page
+sitemap:
+    priority: 1.0
+    lastmod: 2017-11-02
+    changefreq: weekly
+---
 <!DOCTYPE HTML>
 <!--
 	Massively by HTML5 UP
@@ -7,25 +16,7 @@
 -->
 <html>
 	<head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-
-<title>Rotaract Club, IIT Jodhpur | 404</title>
-<meta name="description" content="Explore the community of computer science lovers.">
-
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/icon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/assets/icon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/assets/icon/favicon-16x16.png">
-<link rel="manifest" href="/assets/icon/manifest.json">
-<link rel="mask-icon" href="/assets/icon/safari-pinned-tab.svg" color="#5bbad5">
-<link rel="shortcut icon" href="/assets/icon/favicon.ico">
-<meta name="msapplication-config" content="/assets/icon/browserconfig.xml">
-<meta name="theme-color" content="#ffffff">
-
-<!-- CSS -->
-<link rel="stylesheet" href="/assets/css/main.css" />
-<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
-
+    {% include head.html %}
 
 
 	</head>
@@ -34,108 +25,74 @@
 		<!-- Wrapper -->
 			<div id="wrapper" class="fade-in">
 
+				<!-- Intro -->
+					<div id="intro">
+            <h1>{{site.title}}</h1>
+						<h2>A club established for serving the society</h2>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
 				<!-- Header -->
 					<header id="header">
-						<a href="/" class="logo">Rotaract Club, IIT Jodhpur</a>
+						<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
 					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 
-            <ul class="links">
-  <li class=" active "><a href="/">Home</a></li>
-  <li class=""><a href="/blog/">Blog</a></li>
-</ul>
-
-<ul class="icons">
-  <li><a href="https://facebook.com/rotaractclubofiit/" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
-  <li><a href="https://instagram.com/rotaractclubof_iit/" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li>
-  <li><a href="https://github.com/rtrclubiitj/" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
-</ul>
-
+            {% include nav.html %}
 
 					</nav>
 
 				<!-- Main -->
 					<div id="main">
-						<p>Page Not Found. :-(</p>
+            <!-- Featured Post -->
+            <p>
+						Page Not Found :-(
+            </p>
+						<!-- Posts -->
+							<section class="posts">
+				{% assign counter = 0 %}
+				{% for post in site.posts %}
+									{% if post.is_pinned == true and counter < 2 %}
+									<article>
+										<header>
+											<span class="date">{{ post.date | date_to_string }}</span>
+											<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+										</header>
+										<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+										<p>{{ post.excerpt }}</p>
+										<ul class="actions">
+											<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
+										</ul>
+									</article>
+									{% assign counter=counter | plus:1 %}
+									{% if counter >= 2 %}
+									{% break %}
+									{% endif %}
+									{% endif %}
+				{% endfor %}
+							</section>
 
 						<!-- Footer -->
 							<footer>
                 <ul class="actions">
-                  <li><a href="/blog/" class="button">Our Blog</a></li>
+                  <li><a href="{{ "/blog/" | absolute_url }}" class="button">Our Blog</a></li>
                 </ul>
 							</footer>
 
 					</div>
 
 				<!-- Footer -->
-        <footer id="footer">
-  <section>
-    <form method="POST" action="https://api.slapform.com/rotaractclub@iitj.ac.in">
-      <div class="field">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" />
-      </div>
-      <div class="field">
-        <label for="email">Email</label>
-        <input type="text" name="slap_replyto" id="email" /> <!-- slap_replyto will set the reply-to as the submitter's email! -->
-      </div>
-      <div class="field">
-        <label for="message">Message</label>
-        <textarea name="message" id="message" rows="3"></textarea>
-      </div>
-      <ul class="actions">
-        <li><input type="submit" value="Send Message" /></li>
-      </ul>
-      <input type="hidden" name="slap_redirect" value="/thank-you" /> <!-- slap_redirect allows you to set a custom redirect/thank you page -->
-    </form>
-  </section>
-  <section class="split contact">
-    <section class="alt">
-      <h3>Location</h3>
-      <p>India</p>
-    </section>
-    <section>
-      <h3>Email</h3>
-      <p><a href="mailto:rotaractclub@iitj.ac.in">rotaractclub@iitj.ac.in</a></p>
-    </section>
-    <section>
-      <h3>Social</h3>
-      <ul class="icons alt">
-        <li><a href="https://facebook.com/rotaractclubofiit/" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
-        <li><a href="https://instagram.com/rotaractclubof_iit/" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li>
-        <li><a href="https://github.com/rtrclubiitj/" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
-      </ul>
-    </section>
-  </section>
-</footer>
-<!-- Copyright -->
-<div id="copyright">
-  <ul><li>&copy; Rotaract Club, IIT Jodhpur</li><li>Design by <a href="https://html5up.net" rel="nofollow">HTML5 UP</a></li><li>Jekyll Integration by <a href="https://slapform.com">Slapform</a> </li></ul>
-</div>
-
+        {% include foot.html %}
 
 			</div>
 
 		<!-- Scripts -->
-		<!-- DYN -->
-<script src="/assets/js/jquery.min.js"></script>
-<script src="/assets/js/jquery.scrollex.min.js"></script>
-<script src="/assets/js/jquery.scrolly.min.js"></script>
-<script src="/assets/js/skel.min.js"></script>
-<script src="/assets/js/util.js"></script>
-<script src="/assets/js/main.js"></script>
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=default"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)};
-  gtag('js', new Date());
-
-  gtag('config', 'default');
-</script>
-
+		{% include scripts-main.html %}
+    {% include tracking.html %}
 
 	</body>
 </html>

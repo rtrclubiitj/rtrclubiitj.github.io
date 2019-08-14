@@ -1,35 +1,26 @@
-## How to contribute resources
+## How to contribute blogs
 
-1. Fork, https://github.com/codezonediitj/codezonediitj.github.io.
-2. Execute `git clone https://github.com/<your-github-username>/codezonediitj.github.io`.
+1. Fork, https://github.com/rtrclubiitj/rtrclubiitj.github.io/
+2. Execute `git clone https://github.com/<your-github-username>/rtrclubiitj.github.io`.
 3. Go to the directory of the above repository.
-4. Execute `git remote add origin_user https://github.com/<your-github-username>/codezonediitj.github.io`.
-5. Execute `git checkout -b add-resources`.
-6. Edit `resources.md`. See the rules for editing below.
-7. Execute `git add .`.
-8. Execute `git commit -m "added resources"`.
-9. Execute `git push origin_user add-resources`.
-10. Make a PR by comparing `add-resources` of your fork and `master` of ours.
-
-That'a all. It's that easy.
-
-## How to add your blog entry
-
-Follow steps 1 - 4 of `How to contribute resources` if you haven't.
-
+4. Execute `git remote add origin_user https://github.com/<your-github-username>/rtrclubiitj.github.io`.
 5. Execute `git checkout -b add-blog`.
 6. Add your blog entry in `_posts` folder.
 7. Execute `git add .`.
 8. Execute `git commit -m "added blog entry"`.
 9. Execute `git push origin_user add-blog`.
-10. Make a PR by comparing `add-resources` of your fork and `master` of ours.
+10. Make a PR by comparing `add-blog` of your fork and `master` of ours.
 
 That's all. Your blog is under review.
 
 ## Rules for editing
 
-1. **For adding resources**: Append your name in the `resources.md` file. The list is at the end of the file. Follow the `markdown` syntax. Follow the constraint that each set should not have more than 5 links. You are allowed to make new sets.
-2. **For adding blog entry**: The name of the file should be similar to, `2017-11-14-Dennis-Ritchie-Father-of-C.md`. Be sure not to use any language(communicating, not programming :P) that is not accepted by society. Rest depends on the review of the members.
+1. **For adding blog entry**: The name of the file should be similar to, `2017-11-14-post_1.md`. Follow the `markdown` syntax. Be sure not to use any language(communicating, not programming :P) that is not accepted by society. Rest depends on the review of the members.
+2. **How to push to github**: Once you execute the steps 1 to 4, then after that for submitting new PRs, you have to only start from master, by executing, `git pull origin master` and `git checkout -b "new blog"`.
+
+Currently, only members of the Rotaract Club, IIT Jodhpur can add blog entries to our website.
+
+If you are interested in fixing an issue then just comment on the thread, you will be guided afterwards. Any one can fix the issue, there are no constraints.
 
 The portion below this line was taken from **Massively** README.md. We are thankful to its development team for allowing us to use it.
 
