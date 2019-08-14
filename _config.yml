@@ -1,88 +1,67 @@
-# Jekyll configuration
-markdown: kramdown
-highlighter: rouge
-paginate: 100 # it will paginate after this number
-language: 'en-uk'
-words_per_minute: 200
+# Site
+title:              Rotaract Club, IIT Jodhpur
+bio:                'Community of CS enthusiasts'
+description:        "Community of CS enthusiasts"
+locale:             en_US
+baseurl: "" # the subpath of your site, e.g. /blog
+url: ""
 
-# edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /
+# Comments
+disqus_shortname:   
 
-# Website info
-title: Rotaract Club, IIT Jodhpur
-description: A club established for serving the society
-cover: assets/images/blog-cover.jpg
-# logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
-favicon: assets/images/favicon.png
-CNAME: #add cname for website to be created
+# Social
+analytics-id:       "default"
+gitter:             rtrclubiitj2019/website-maintain
+facebook:           rotaractclubofiit/
+instagram:          rotaractclubof_iit/
+github:             rtrclubiitj/
 
-# Social info
-navigation: True # show the navbar links
-subscribers: True # you need to connect an external service for this to work,
-# if 'True' the submit button is disabled for now, but you can change that
-# by editing `_includes/subscribe-form.html`
-twitter: club_iit # replace by your username
-facebook: rotaractclubofiit # replace by your username
-instagram: rotaractclubofiit
+# personal
+location:           Rajasthan, India
+email:              rotaractclub@iitj.ac.in # change this to your email to receive free emails for your contact submissions via Slapform.com
 
-# Disqus
-disqus: False
-disqus_shortname: rotaractclubofiit # replace with your disqus username
+# Other
+background_image:   /images/bg.jpg
+# Tip: The color palette and other styles can be configured in /_sass/lib/_vars.scss
+slapform_thankyou_page: /thank-you
 
-# Google Analytics
-google_analytics: NULL # replace with your GA tracking identifier
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/:title/"
+    layout: post
+    author:
 
-# Permalinks
-permalink: /:title
-# permalink: /author/:author
-# permalink: /tag/:tag
+# Jekyll
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
+sass:
+  sass_dir:         _sass
+  style:            compressed
 
-# Authors' info in `_data/authors.yml`
-# Tags' info in `_data/tags_info.yml`
+# Gems
+gems:
+  - jekyll-mentions
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
 
-# gems and other configs
-plugins_dir: [_plugins]
-plugins: [jekyll-paginate, jekyll-feed]
+paginate: 6
+paginate_path: "/blog/page:num/"
 
-feed:
-  path: feed.xml
+jekyll-mentions:
+    base_url: https://github.com
 
-# Additional settings available on the front-matter
-# Site logo in the index.html (as in demo.ghost.io)
-# Author's page cover in _layouts/author.html
-# The same for page.html and tag.html layouts
-# Post's page cover as a per-post basis _posts/...
-# Disqus comments as a per-post basis
-# ...
-
-# Settings for builing master branch with travis-ci
-# with jekyll-travis
-
-# Settings for deploy rake task
-# Username and repo of Github repo, e.g.
-# https://github.com/USERNAME/REPO.git
-# username defaults to ENV['GIT_NAME'] used by Travis
-# repo defaults to USERNAME.github.io
-# Branch defaults to "source" for USERNAME.github.io
-# or "master" otherwise
-safe: False
-lsi: False
-
-exclude:
-  - assets/css
-  - node_modules
-  - vendor
-  - .travis.yml
-  - Gemfile
-  - Gemfile.lock
-  - GHOST.txt
-  - gulpfile.js
-  - LICENSE
-  - package.json
-  - Rakefile
-  - README.md
-  - script.py
-  - changelog.md
-  - "*.Rmd"
-  - .git*
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
