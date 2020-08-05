@@ -30,7 +30,7 @@ The yearwise list of the former Board of Directors of the club are listed below.
 ### 2019 - 2020
 **President** - [Sonal Jaiswal](mailto:jaiswal.4@iitj.ac.in)<br/>
 **Vice President** - [Anil Kumar Gurjar](mailto:gurjar.2@iitj.ac.in)<br/>    
-**Secretary** - [Diwankar Twinwal](mailto:twinwal.1@iitj.ac.in)<br/>   
+**Secretary** - [Diwakar Twinwal](mailto:twinwal.1@iitj.ac.in)<br/>   
 **Joint Secretary** - [Mayank Rathor](mailto:rathor.2@iitj.ac.in)<br/>
 **Sergent at Arms** - [Subash Chandra Bose](mailto:bose.2@iitj.ac.in)<br/>
 **Treasurer** - [Gaurav Rawat](mailto:rawat.1@iitj.ac.in)<br/>
