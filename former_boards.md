@@ -25,6 +25,7 @@ The yearwise list of the former Board of Directors of the club are listed below.
 
 <div class="box" markdown="1" id="1">
 ### 2020 - 2021
+**Immediate Past President** - [Sonal Jaiswal](mailto:jaiswal.4@iitj.ac.in)<br/>
 **President** - [Unnati Gupta](mailto:gupta.32@iitj.ac.in)<br/>
 **Vice President** - [Rakesh Kumar Maurya](mailto:maurya.4@iitj.ac.in)<br/>     
 **Secretary** - [Swarit Anand Singh](mailto:singh.68@iitj.ac.in)<br/>    
