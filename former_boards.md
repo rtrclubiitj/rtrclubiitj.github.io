@@ -23,3 +23,20 @@ The yearwise list of the former Board of Directors of the club are listed below.
 **Director** - [Animesh Kumar Singh](mailto:singh.32@iitj.ac.in)<br/>
 </div>
 
+<div class="box" markdown="1" id="1">
+### 2020 - 2021
+**President** - [Unnati Gupta](mailto:gupta.32@iitj.ac.in)<br/>
+**Vice President** - [Rakesh Kumar Maurya](mailto:maurya.4@iitj.ac.in)<br/>     
+**Secretary** - [Swarit Anand Singh](mailto:singh.68@iitj.ac.in)<br/>    
+**Joint Secretary** - [Akansha Mishra](mailto:mishra.11@iitj.ac.in)<br/>   
+**Sergent at Arms** - [Subash Chandra Bose](mailto:bose.2@iitj.ac.in)<br/>
+**Treasurer** - [Sweta Chauhan](mailto:chauhan.7@iitj.ac.in)<br/>
+**Director** - [Aman Mohtta](mailto:mohtta.1@iitj.ac.in)<br/>
+**Director** - [Akshita Varshney](mailto:varshney.1@iitj.ac.in)<br/>
+**Director** - [Harshita Kasera](mailto:kasera.1@iitj.ac.in)<br/>
+**Director** - [Aastha Kapoor](mailto:kapoor.2@iitj.ac.in)<br/>
+**Director** - [Shashank Saraswat](mailto:saraswat.1@iitj.ac.in)<br/>
+**Director** - [Hemant Shrivastava](mailto:hemant.2@iitj.ac.in)<br/>    
+**Director** - [Bheemraj Meena](mailto:meena.38@iitj.ac.in)<br/>
+
+</div>
